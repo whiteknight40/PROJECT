@@ -72,11 +72,11 @@ export default function Login() {
       {/* 🔝 Navbar */}
       <AppBar position="static" sx={{ background: "rgba(0,0,0,0.6)" }}>
         <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
-          <Typography variant="h6">CDC Portal</Typography>
+          <Typography variant="h6">IIT ISM Dhanbad</Typography>
 
           <Box sx={{ display: "flex", gap: 3 }}>
             <Button color="inherit">Home</Button>
-            <Button color="inherit">About CDC</Button>
+            <Button color="inherit">Admin Login</Button>
             <Button color="inherit">Student Login</Button>
             <Button color="inherit">Recruiter Login</Button>
           </Box>
@@ -103,7 +103,7 @@ export default function Login() {
           }}
         >
           <Typography variant="h5" textAlign="center" mb={3}>
-            JNF Portal Login
+            Recruiter Login
           </Typography>
 
           <TextField
