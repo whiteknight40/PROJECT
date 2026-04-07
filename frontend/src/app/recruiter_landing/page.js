@@ -7,15 +7,21 @@ import StatusTable from "@/components/StatusTable";
 
 export default function Dashboard() {
   return (
-    <Box sx={{ backgroundColor: "#0b1f3a", minHeight: "100vh", color: "#fff" }}>
+    <Box
+      sx={{
+        backgroundColor: "rgba(255, 255, 255)",
+        minHeight: "100vh",
+        color: "#fff",
+      }}
+    >
       <Navbar />
 
       <Box sx={{ padding: 4 }}>
-        <Typography variant="h5" gutterBottom>
+        <Typography variant="h5" sx={{ color: "rgba(0,0,0)" }} gutterBottom>
           Welcome back, Global Tech Solutions Inc.
         </Typography>
 
-        <Typography variant="h6" sx={{ marginTop: 3 }}>
+        <Typography variant="h6" sx={{ marginTop: 3, color: "rgba(0,0,0)" }}>
           Quick Actions
         </Typography>
 
@@ -27,7 +33,7 @@ export default function Dashboard() {
           />
         </Box>
 
-        <Typography variant="h6" sx={{ marginTop: 4 }}>
+        <Typography variant="h6" sx={{ marginTop: 4, color: "rgba(0,0,0)" }}>
           Current Proposal Status
         </Typography>
 

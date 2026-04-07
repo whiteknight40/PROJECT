@@ -43,34 +43,11 @@ export default function Login() {
   };
 
   return (
-    <Box sx={{ position: "relative", height: "100vh" }}>
-      {/* 🌆 Background Image */}
-      <Box
-        sx={{
-          position: "absolute",
-          width: "100%",
-          height: "100%",
-          backgroundImage: "url('/bg.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          filter: "brightness(0.9)",
-          zIndex: -2,
-        }}
-      />
-
-      {/* 🌫️ Overlay */}
-      <Box
-        sx={{
-          position: "absolute",
-          width: "100%",
-          height: "100%",
-          backgroundColor: "rgba(0,0,0,0.4)",
-          zIndex: -1,
-        }}
-      />
-
+    <Box
+      sx={{ position: "relative", height: "100vh", backgroundColor: "#ffffff" }}
+    >
       {/* 🔝 Navbar */}
-      <AppBar position="static" sx={{ background: "rgba(0,0,0,0.6)" }}>
+      <AppBar position="static" sx={{ background: "#0b1f3a" }}>
         <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
           <Typography variant="h6">IIT ISM Dhanbad</Typography>
 
@@ -97,9 +74,9 @@ export default function Login() {
             width: 350,
             borderRadius: 4,
             backdropFilter: "blur(15px)",
-            background: "rgba(128,0,0, 0.3)",
-            border: "1px solid rgba(255,255,255,0.3)",
-            color: "#fff",
+            background: "rgba(100, 149, 237, 0.3)",
+            border: "1px solid rgba(0,0,0,0.3)",
+            color: "#000",
           }}
         >
           <Typography variant="h5" textAlign="center" mb={3}>
@@ -116,22 +93,17 @@ export default function Login() {
             error={!!errors.email}
             helperText={errors.email}
             InputLabelProps={{
-              style: { color: "#fff" }, // label color
+              style: { color: "#000" }, // label color
             }}
             InputProps={{
-              style: { color: "#fff" }, // typed text color
+              style: { color: "#000" }, // typed text color
             }}
             sx={{
               "& .MuiOutlinedInput-root": {
                 "& fieldset": {
-                  borderColor: "#fff", // default border
+                  borderColor: "#000", // default border
                 },
-                "&:hover fieldset": {
-                  borderColor: "#fff", // hover border
-                },
-                "&.Mui-focused fieldset": {
-                  borderColor: "#fff", // focus border
-                },
+                
               },
             }}
           />
@@ -146,21 +118,15 @@ export default function Login() {
             error={!!errors.password}
             helperText={errors.password}
             InputLabelProps={{
-              style: { color: "#fff" }, // label color
+              style: { color: "#000" }, // label color
             }}
             InputProps={{
-              style: { color: "#fff" }, // typed text color
+              style: { color: "#000" }, // typed text color
             }}
             sx={{
               "& .MuiOutlinedInput-root": {
                 "& fieldset": {
-                  borderColor: "#fff", // default border
-                },
-                "&:hover fieldset": {
-                  borderColor: "#fff", // hover border
-                },
-                "&.Mui-focused fieldset": {
-                  borderColor: "#fff", // focus border
+                  borderColor: "#000", // default border
                 },
               },
             }}

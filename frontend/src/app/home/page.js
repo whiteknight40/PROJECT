@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <Box sx={{ flexGrow: 1, bgcolor: "#f6fff6", minHeight: "100vh" }}>
       {/* 🌿 NAVBAR */}
-      <AppBar position="static" sx={{ bgcolor: "#66bb6a" }}>
+      <AppBar position="static" sx={{ bgcolor: "#06402B" }}>
         <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
           <Typography
             variant="h6"
@@ -58,7 +58,7 @@ export default function Home() {
       {/* 🌿 HERO SECTION */}
       <Box
         sx={{
-          bgcolor: "#e8f5e9",
+          bgcolor: "#00A300",
           py: 10,
           textAlign: "center",
         }}

@@ -6,7 +6,7 @@ export default function ActionCard({ title, subtitle }) {
   return (
     <Card
       sx={{
-        backgroundColor: "#f9a825",
+        backgroundColor: "#00B4D8",
         color: "#000",
         width: "300px",
         cursor: "pointer",
