@@ -39,7 +39,7 @@ export default function Login() {
     
     const handleLogin = () => {
       if(validate())
-        router.push("/landing");
+        router.push("/landing"); /*to be changed*/
   };
 
   return (
